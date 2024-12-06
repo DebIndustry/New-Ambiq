@@ -1,0 +1,63 @@
+{
+  "name": "ambiq-react",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "animejs": "^3.2.2",
+    "aos": "^2.3.4",
+    "dotenv": "^16.4.5",
+    "enquire.js": "^2.1.6",
+    "firebase": "^10.12.3",
+    "i": "^0.3.7",
+    "json2mq": "^0.2.0",
+    "node": "^20.16.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-carousel": "^4.3.0",
+    "react-dom": "^18.3.1",
+    "react-ghosta": "^1.3.3",
+    "react-icons": "^5.3.0",
+    "react-multi-carousel": "^2.8.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.27.0",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.30.2",
+    "resize-observer-polyfill": "^1.5.1",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1"
+  }
+}

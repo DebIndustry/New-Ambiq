@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9a91693e.css",
+    "main.js": "./static/js/main.2a3f74e1.js",
+    "static/media/AmbiQ-Logo.png": "./static/media/AmbiQ-Logo.10f98b81062773fc3f74.png",
+    "static/media/ambulane (2).png": "./static/media/ambulane (2).5c7a868c13c4e7480b27.png",
+    "static/media/about-img.jpg": "./static/media/about-img.477eeefbfa6abca67e5d.jpg",
+    "static/media/AmbiQ Logo_White.png": "./static/media/AmbiQ Logo_White.c1de89a97bf45b99178d.png",
+    "static/media/mobile_hand.png": "./static/media/mobile_hand.b0801381893c19d6c1f4.png",
+    "static/media/ambulanceGIF.gif": "./static/media/ambulanceGIF.aefea4e0c475de2d18de.gif",
+    "static/media/ambiq_hm_paralax1.jpg": "./static/media/ambiq_hm_paralax1.d7a7f370a266570aca70.jpg",
+    "static/media/flag.png": "./static/media/flag.42465307b47b4b719544.png",
+    "index.html": "./index.html",
+    "main.9a91693e.css.map": "./static/css/main.9a91693e.css.map",
+    "main.2a3f74e1.js.map": "./static/js/main.2a3f74e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a91693e.css",
+    "static/js/main.2a3f74e1.js"
+  ]
+}

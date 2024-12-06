@@ -1,0 +1,27 @@
+/* Container for the slider */
+.slider-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Slider wrapper for horizontal scrolling */
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Each individual slide */
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Slide images */
+  .slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  

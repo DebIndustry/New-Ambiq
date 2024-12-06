@@ -1,0 +1,219 @@
+ .top-bar-section {
+   background-color: #19717D;
+   color: white;
+  }
+
+ .top-bar-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 0;
+   padding-right: 48px;
+   padding-bottom: 0;
+   padding-left: 100px;
+
+ }
+
+ .contact-info {
+   display: flex;
+   gap: 20px;
+   align-items: center;
+ }
+
+
+ .contact-item .iconT {
+   margin-right: 5px;
+   font-size: 14px;
+ }
+
+ .point {
+   position: absolute;
+   background-color: red;
+   width: 3px;
+   height: 3px;
+   top: 22.5px;
+   left: 31.46%;
+   z-index: 1;
+   border-radius: 50px;
+ }
+
+ .navigation-icons {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   font-size: 17px;
+
+ }
+
+ .navigation-icons img {
+   width: 20px;
+   height: 20px;
+   margin-top: 4px;
+ }
+
+ .navigation-icons .android {
+   font-size: 18px;
+   position: relative;
+   bottom: 2px;
+
+ }
+
+ .navigation-icons .apple {
+   font-size: 20px;
+   position: relative;
+   bottom: 2px;
+ }
+
+ .navigation-icons a:nth-child(1)::after {
+   content: "|";
+   margin-left: 12px;
+ }
+
+ .navigation-icons a:nth-child(2)::after {
+   content: "|";
+   margin-left: 10px;
+ }
+
+ .navigation-icons a:nth-child(3)::after {
+   content: "|";
+   margin-left: 10px;
+ }
+
+
+ .navigation-icons a {
+   text-decoration: none;
+   color: white;
+   font-size: 15px;
+   padding: 5px 5px;
+ }
+
+ .navigation-icons a:hover {
+   text-decoration: underline;
+ }
+
+ .navigation-icons svg {
+   margin-left: 5px;
+   color: white;
+ }
+
+ .navigation-icons .email-image {
+   margin-left: 5px;
+   margin-top: 0;
+   position: relative;
+   bottom: .5px;
+
+ }
+
+ .navigation-icons .align {
+   display: flex;
+   align-items: baseline;
+
+
+ }
+
+ .navigation-icons .align>* {
+
+   margin-left: 10px;
+
+
+ }
+
+ .logo-nav-section {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 18px;
+   padding-left: 100px;
+   padding-right: 50px;
+ }
+
+ .logo-container {
+   display: flex;
+   align-items: center;
+ }
+
+ .logo-image {
+   width: 100px;
+   height: 50px;
+ }
+
+ .site-title {
+   font-size: 30px;
+   font-weight: bold;
+   margin-left: 10px;
+ }
+
+ .nav-links-section {
+   display: flex;
+   gap: 10px;
+   align-items: center;
+ }
+
+ .nav-links-section a {
+   text-decoration: none;
+   color: black;
+   font-size: 14px;
+   font-weight: bold;
+ }
+
+ .nav-links-section a:nth-child(1)::after {
+   content: "|";
+   margin-left: 15px;
+
+ }
+
+ .nav-links-section a:nth-child(2)::after {
+   content: "|";
+   margin-left: 15px;
+
+ }
+
+ .nav-links-section a:nth-child(3)::after {
+   content: "|";
+   margin-left: 15px;
+
+ }
+
+ .nav-links-section a:hover {
+   text-decoration: underline;
+ }
+
+ .enquiry-button {
+   background-color: #da0000;
+   color: white;
+   padding: 8px 16px;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   margin-left: 50px;
+   border: none;
+   cursor: pointer;
+ }
+
+ .enquiry-button span {
+   color: white;
+ }
+
+ .enquiry-button .ioicon {
+   color: white;
+ }
+
+ .enquiry-button:hover {
+   background-color: #b30000;
+ }
+ 
+ .menu-open-icon,
+.menu-close-icon {
+  display: none;
+}
+
+ .menu-open-icon,
+.menu-close-icon {
+  position: fixed;  
+   font-size: 25px;
+  color: #b30000;
+  display: none; 
+  z-index: 10;  
+}
+

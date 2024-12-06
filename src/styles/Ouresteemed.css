@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.MainOurContainer {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.MainOurContainer .Partner p:nth-child(1) {
+  text-align: center;
+  font-size: 35px;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.MainOurContainer .Partner p:nth-child(2) {
+  text-align: center;
+  font-size: 15px;
+}
+
+.cardMainContainer {
+  display: flex;
+  width: calc(25% * 8); /* Default width for the animation */
+  animation: slide 20s linear infinite;
+}
+
+.card {
+  width: 21%;
+  height: 120px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 50px;
+}
+
+.card img {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+.card p {
+  margin: auto;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* For Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .cardMainContainer {
+    display: flex;
+    width: 200%; /* Adjust animation width for smaller screens */
+    animation: slide 20s linear infinite;
+  }
+
+  .card {
+    width: 30%; /* Adjust card width for smaller screens */
+    margin: 20px; /* Adjust margin */
+  }
+
+  .card img {
+    width: 60%; /* Slightly larger image for better visibility */
+    height: auto;
+  }
+
+  .MainOurContainer .Partner p:nth-child(1) {
+    font-size: 28px; /* Smaller heading size */
+  }
+
+  .MainOurContainer .Partner p:nth-child(2) {
+    font-size: 14px; /* Smaller subheading size */
+  }
+}
+@media (max-width: 468px) {
+  .cardMainContainer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px; /* Further minimized gap between cards */
+    width: max-content;
+    overflow-x: hidden;
+    animation: slide 20s linear infinite;
+  }
+
+  .card {
+    width: 15%; /* Reduced card width for smaller size */
+     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15); 
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .card img {
+    width: 65%; /* Smaller image size */
+    height: auto;
+    display: block;
+    margin: 25px auto 0; /* Reduced margin */
+  }
+
+  .MainOurContainer .Partner p:nth-child(1) {
+    font-size: 14px; /* Even smaller heading font size */
+    margin-bottom: 3px; /* Adjusted spacing */
+  }
+
+  .MainOurContainer .Partner p:nth-child(2) {
+    font-size: 10px; /* Smaller subheading font size */
+    margin-bottom: 5px; /* Adjusted spacing */
+  }
+}
